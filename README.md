@@ -1,5 +1,7 @@
-Laravel-Identicon Package [![Build Status](https://travis-ci.org/irazasyed/laravel-identicon.svg)](https://travis-ci.org/irazasyed/laravel-identicon)
+Laravel-Identicon Package
 =========================
+[![Build Status](https://travis-ci.org/irazasyed/laravel-identicon.svg)](https://travis-ci.org/irazasyed/laravel-identicon)
+[![Latest Stable Version](https://poser.pugx.org/irazasyed/laravel-identicon/v/stable.svg)](https://packagist.org/packages/irazasyed/laravel-identicon) [![Total Downloads](https://poser.pugx.org/irazasyed/laravel-identicon/downloads.svg)](https://packagist.org/packages/irazasyed/laravel-identicon) [![Latest Unstable Version](https://poser.pugx.org/irazasyed/laravel-identicon/v/unstable.svg)](https://packagist.org/packages/irazasyed/laravel-identicon) [![License](https://poser.pugx.org/irazasyed/laravel-identicon/license.svg)](https://packagist.org/packages/irazasyed/laravel-identicon)
 
 > Laravel 4 [Identicon][1] Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 4.
 
