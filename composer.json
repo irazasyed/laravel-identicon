@@ -1,0 +1,23 @@
+{
+    "name": "irazasyed/laravel-identicon",
+    "description": "Laravel 4 Identicon Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 4.",
+    "keywords": ["laravel", "laravel 4", "identicon", "laravel4"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Syed I.R",
+            "email": "syed@lukonet.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": ">=4.1,<4.3",
+        "yzalis/identicon": "~1.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Irazasyed\\LaravelIdenticon\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
