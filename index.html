@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Laravel-identicon by irazasyed</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Laravel-identicon</h1>
+        <p>Laravel 4 Identicon Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 4.</p>
+
+        <p class="view"><a href="https://github.com/irazasyed/laravel-identicon">View the Project on GitHub <small>irazasyed/laravel-identicon</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/irazasyed/laravel-identicon/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/irazasyed/laravel-identicon/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/irazasyed/laravel-identicon">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="laravel-identicon-package" class="anchor" href="#laravel-identicon-package"><span class="octicon octicon-link"></span></a>Laravel-Identicon Package</h1>
+
+<blockquote>
+<p>Laravel 4 <a href="http://identicon-php.org/">Identicon</a> Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 4.</p>
+</blockquote>
+
+<h2>
+<a name="quick-start" class="anchor" href="#quick-start"><span class="octicon octicon-link"></span></a>Quick start</h2>
+
+<h3>
+<a name="required-setup--installation" class="anchor" href="#required-setup--installation"><span class="octicon octicon-link"></span></a>Required setup / Installation</h3>
+
+<p>You can either add the package directly by firing this command</p>
+
+<pre><code>$ composer require irazasyed/laravel-identicon:*
+</code></pre>
+
+<p>Or add in the <code>require</code> key of <code>composer.json</code> file manually by add the following</p>
+
+<pre><code>"irazasyed/laravel-identicon": "*"
+</code></pre>
+
+<p>And Run the Composer update comand</p>
+
+<pre><code>$ composer update
+</code></pre>
+
+<p>In your <code>app/config/app.php</code> add <code>'Irazasyed\LaravelIdenticon\ServiceProvider'</code> to the end of the <code>$providers</code> array</p>
+
+<div class="highlight highlight-php"><pre><span class="s1">'providers'</span> <span class="o">=&gt;</span> <span class="k">array</span><span class="p">(</span>
+
+    <span class="s1">'Illuminate\Foundation\Providers\ArtisanServiceProvider'</span><span class="p">,</span>
+    <span class="s1">'Illuminate\Auth\AuthServiceProvider'</span><span class="p">,</span>
+    <span class="o">...</span>
+    <span class="s1">'Irazasyed\LaravelIdenticon\ServiceProvider'</span><span class="p">,</span>
+
+<span class="p">),</span>
+</pre></div>
+
+<p>At the end of <code>app/config/app.php</code> add <code>'Identicon' =&gt; 'Irazasyed\LaravelIdenticon\Facade'</code> to the <code>$aliases</code> array</p>
+
+<div class="highlight highlight-php"><pre><span class="s1">'aliases'</span> <span class="o">=&gt;</span> <span class="k">array</span><span class="p">(</span>
+
+    <span class="s1">'App'</span>        <span class="o">=&gt;</span> <span class="s1">'Illuminate\Support\Facades\App'</span><span class="p">,</span>
+    <span class="s1">'Artisan'</span>    <span class="o">=&gt;</span> <span class="s1">'Illuminate\Support\Facades\Artisan'</span><span class="p">,</span>
+    <span class="o">...</span>
+    <span class="s1">'Identicon'</span>  <span class="o">=&gt;</span> <span class="s1">'Irazasyed\LaravelIdenticon\Facade'</span><span class="p">,</span>
+
+<span class="p">),</span>
+</pre></div>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>This Package adds Laravel Support to <a href="http://identicon-php.org/">Identicon</a> PHP Library. It simply extends the library as well as optimized for usage with Laravel. So all the methods listed <a href="http://identicon-php.org/">here</a> are available and will work seamlessly.</p>
+
+<h3>
+<a name="example-methods" class="anchor" href="#example-methods"><span class="octicon octicon-link"></span></a>Example Methods</h3>
+
+<p>Generate and Display an identicon image:</p>
+
+<div class="highlight highlight-php"><pre><span class="nx">Identicon</span><span class="o">::</span><span class="na">displayImage</span><span class="p">(</span><span class="s1">'foo'</span><span class="p">);</span>
+</pre></div>
+
+<p>Generate and get the image data</p>
+
+<div class="highlight highlight-php"><pre><span class="nv">$imageData</span> <span class="o">=</span> <span class="nx">Identicon</span><span class="o">::</span><span class="na">getImageData</span><span class="p">(</span><span class="s1">'bar'</span><span class="p">);</span>
+</pre></div>
+
+<p>Generate and get the base 64 image uri ready for integrate into an HTML img tag. The below example is using blade templating</p>
+
+<pre><code>&lt;img src="{{ Identicon::getImageDataUri('bar') }}" alt="bar Identicon" /&gt;
+</code></pre>
+
+<p>...</p>
+
+<p>And all the other remaining methods from the main library.</p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>MIT © <a href="http://lk.gd/irazasyed">Syed I.R</a></p>
+
+<h2>
+<a name="additional-information" class="anchor" href="#additional-information"><span class="octicon octicon-link"></span></a>Additional information</h2>
+
+<p>Any issues, please <a href="https://github.com/irazasyed/laravel-identicon/issues">report here</a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/irazasyed">irazasyed</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
