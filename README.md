@@ -13,11 +13,11 @@ Laravel-Identicon Package
 
 You can either add the package directly by firing this command
 	
-	$ composer require irazasyed/laravel-identicon:*
+	$ composer require irazasyed/laravel-identicon:~1.0
 	
 Or add in the `require` key of `composer.json` file manually by add the following
 
-    "irazasyed/laravel-identicon": "*"
+    "irazasyed/laravel-identicon": "~1.0"
 
 And Run the Composer update comand
 
