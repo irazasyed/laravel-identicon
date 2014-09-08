@@ -1,7 +1,8 @@
 {
     "name": "irazasyed/laravel-identicon",
     "description": "Laravel 4 Identicon Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 4.",
-    "keywords": ["laravel", "laravel 4", "identicon", "laravel4"],
+    "keywords": ["identicon", "avatar", "image", "laravel", "laravel 4", "laravel identicon"],
+    "homepage": "http://irazasyed.github.io/laravel-identicon/",
     "license": "MIT",
     "authors": [
         {
