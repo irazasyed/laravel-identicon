@@ -1,9 +1,12 @@
 Laravel-Identicon Package
 =========================
-[![Latest Stable Version](https://poser.pugx.org/irazasyed/laravel-identicon/v/stable.svg)](https://packagist.org/packages/irazasyed/laravel-identicon) 
-[![Total Downloads](https://poser.pugx.org/irazasyed/laravel-identicon/downloads.svg)](https://packagist.org/packages/irazasyed/laravel-identicon) 
-[![Latest Unstable Version](https://poser.pugx.org/irazasyed/laravel-identicon/v/unstable.svg)](https://packagist.org/packages/irazasyed/laravel-identicon) 
-[![License](https://poser.pugx.org/irazasyed/laravel-identicon/license.svg)](https://packagist.org/packages/irazasyed/laravel-identicon)
+[![Package for Laravel](https://img.shields.io/badge/Package%20for%20Laravel-4/5-blue.svg?style=flat-square)](https://github.com/irazasyed/laravel-identicon)
+[![Latest Version](https://img.shields.io/github/release/irazasyed/laravel-identicon.svg?style=flat-square)](https://github.com/irazasyed/laravel-identicon/releases)
+[![Latest Tag](https://img.shields.io/github/tag/irazasyed/laravel-identicon.svg?style=flat-square)](https://github.com/irazasyed/laravel-identicon/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/3a51a89d-7e80-467d-b857-5b05ccf3bdb5.svg?style=flat-square)](https://insight.sensiolabs.com/projects/3a51a89d-7e80-467d-b857-5b05ccf3bdb5)
+[![Total Downloads](https://img.shields.io/packagist/dt/irazasyed/laravel-identicon.svg?style=flat-square)](https://packagist.org/packages/irazasyed/laravel-identicon)
+
 
 > Laravel 4/5 [Identicon][1] Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 4 or 5.
 
@@ -14,9 +17,9 @@ Laravel-Identicon Package
 
 
 You can either add the package directly by firing this command
-	
+
 	$ composer require irazasyed/laravel-identicon:~1.1
-	
+
 Or add in the `require` key of `composer.json` file manually by add the following
 
     "irazasyed/laravel-identicon": "~1.1"
