@@ -1,9 +1,11 @@
 Laravel-Identicon Package
 =========================
-[![Build Status](https://travis-ci.org/irazasyed/laravel-identicon.svg)](https://travis-ci.org/irazasyed/laravel-identicon)
-[![Latest Stable Version](https://poser.pugx.org/irazasyed/laravel-identicon/v/stable.svg)](https://packagist.org/packages/irazasyed/laravel-identicon) [![Total Downloads](https://poser.pugx.org/irazasyed/laravel-identicon/downloads.svg)](https://packagist.org/packages/irazasyed/laravel-identicon) [![Latest Unstable Version](https://poser.pugx.org/irazasyed/laravel-identicon/v/unstable.svg)](https://packagist.org/packages/irazasyed/laravel-identicon) [![License](https://poser.pugx.org/irazasyed/laravel-identicon/license.svg)](https://packagist.org/packages/irazasyed/laravel-identicon)
+[![Latest Stable Version](https://poser.pugx.org/irazasyed/laravel-identicon/v/stable.svg)](https://packagist.org/packages/irazasyed/laravel-identicon) 
+[![Total Downloads](https://poser.pugx.org/irazasyed/laravel-identicon/downloads.svg)](https://packagist.org/packages/irazasyed/laravel-identicon) 
+[![Latest Unstable Version](https://poser.pugx.org/irazasyed/laravel-identicon/v/unstable.svg)](https://packagist.org/packages/irazasyed/laravel-identicon) 
+[![License](https://poser.pugx.org/irazasyed/laravel-identicon/license.svg)](https://packagist.org/packages/irazasyed/laravel-identicon)
 
-> Laravel 4 [Identicon][1] Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 4.
+> Laravel 4/5 [Identicon][1] Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 4 or 5.
 
 ## Quick start
 
@@ -13,11 +15,11 @@ Laravel-Identicon Package
 
 You can either add the package directly by firing this command
 	
-	$ composer require irazasyed/laravel-identicon:~1.0
+	$ composer require irazasyed/laravel-identicon:~1.1
 	
 Or add in the `require` key of `composer.json` file manually by add the following
 
-    "irazasyed/laravel-identicon": "~1.0"
+    "irazasyed/laravel-identicon": "~1.1"
 
 And Run the Composer update comand
 
