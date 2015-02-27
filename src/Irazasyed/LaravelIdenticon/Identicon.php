@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Response;
 
 class Identicon extends \Identicon\Identicon {
+
     /**
      * Laravel Response Wrapper to Display an Identicon image.
      *
@@ -16,6 +17,7 @@ class Identicon extends \Identicon\Identicon {
     public function displayImage($string, $size = 64, $color = null, $backgroundColor = null)
     {
         $imageData = $this->getImageData($string, $size, $color, $backgroundColor);
-        return Response::make($imageData, 200, ['Content-Type' => 'image/png']);
+
+        return Response::make($imageData, 200, [ 'Content-Type' => 'image/png' ]);
     }
 }
