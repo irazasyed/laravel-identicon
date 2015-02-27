@@ -16,7 +16,7 @@
     <div class="wrapper">
       <header>
         <h1>Laravel-identicon</h1>
-        <p>Laravel 4 Identicon Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 4.</p>
+        <p>Laravel 4 / 5 Identicon Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 4 / 5.</p>
 
         <p class="view"><a href="https://github.com/irazasyed/laravel-identicon">View the Project on GitHub <small>irazasyed/laravel-identicon</small></a></p>
 
@@ -29,29 +29,31 @@
       </header>
       <section>
         <h1>
-<a name="laravel-identicon-package" class="anchor" href="#laravel-identicon-package"><span class="octicon octicon-link"></span></a>Laravel-Identicon Package</h1>
+<a id="laravel-identicon-package" class="anchor" href="#laravel-identicon-package" aria-hidden="true"><span class="octicon octicon-link"></span></a>Laravel-Identicon Package</h1>
 
-<p><a href="https://travis-ci.org/irazasyed/laravel-identicon"><img src="https://travis-ci.org/irazasyed/laravel-identicon.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/irazasyed/laravel-identicon"><img src="https://poser.pugx.org/irazasyed/laravel-identicon/v/stable.svg" alt="Latest Stable Version"></a> <a href="https://packagist.org/packages/irazasyed/laravel-identicon"><img src="https://poser.pugx.org/irazasyed/laravel-identicon/downloads.svg" alt="Total Downloads"></a> <a href="https://packagist.org/packages/irazasyed/laravel-identicon"><img src="https://poser.pugx.org/irazasyed/laravel-identicon/v/unstable.svg" alt="Latest Unstable Version"></a> <a href="https://packagist.org/packages/irazasyed/laravel-identicon"><img src="https://poser.pugx.org/irazasyed/laravel-identicon/license.svg" alt="License"></a></p>
+<p><a href="https://packagist.org/packages/irazasyed/laravel-identicon"><img src="https://poser.pugx.org/irazasyed/laravel-identicon/v/stable.svg" alt="Latest Stable Version"></a> 
+<a href="https://packagist.org/packages/irazasyed/laravel-identicon"><img src="https://poser.pugx.org/irazasyed/laravel-identicon/downloads.svg" alt="Total Downloads"></a> 
+<a href="https://packagist.org/packages/irazasyed/laravel-identicon"><img src="https://poser.pugx.org/irazasyed/laravel-identicon/v/unstable.svg" alt="Latest Unstable Version"></a> 
+<a href="https://packagist.org/packages/irazasyed/laravel-identicon"><img src="https://poser.pugx.org/irazasyed/laravel-identicon/license.svg" alt="License"></a></p>
 
 <blockquote>
-<p>Laravel 4 <a href="http://identicon-php.org/">Identicon</a> Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 4.</p>
+<p>Laravel 4/5 <a href="http://identicon-php.org/">Identicon</a> Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 4 or 5.</p>
 </blockquote>
 
 <h2>
-<a name="quick-start" class="anchor" href="#quick-start"><span class="octicon octicon-link"></span></a>Quick start</h2>
+<a id="quick-start" class="anchor" href="#quick-start" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quick start</h2>
 
 <h3>
-<a name="required-setup--installation" class="anchor" href="#required-setup--installation"><span class="octicon octicon-link"></span></a>Required setup / Installation</h3>
+<a id="required-setup--installation" class="anchor" href="#required-setup--installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Required setup / Installation</h3>
 
 <p>You can either add the package directly by firing this command</p>
 
-<pre><code>$ composer require irazasyed/laravel-identicon:~1.0
+<pre><code>$ composer require irazasyed/laravel-identicon:~1.1
 </code></pre>
 
 <p>Or add in the <code>require</code> key of <code>composer.json</code> file manually by add the following</p>
 
-<pre><code>"irazasyed/laravel-identicon": "~1.0"
+<pre><code>"irazasyed/laravel-identicon": "~1.1"
 </code></pre>
 
 <p>And Run the Composer update comand</p>
@@ -61,45 +63,41 @@
 
 <p>In your <code>app/config/app.php</code> add <code>'Irazasyed\LaravelIdenticon\ServiceProvider'</code> to the end of the <code>$providers</code> array</p>
 
-<div class="highlight highlight-php"><pre><span class="s1">'providers'</span> <span class="o">=&gt;</span> <span class="k">array</span><span class="p">(</span>
-
-    <span class="s1">'Illuminate\Foundation\Providers\ArtisanServiceProvider'</span><span class="p">,</span>
-    <span class="s1">'Illuminate\Auth\AuthServiceProvider'</span><span class="p">,</span>
-    <span class="o">...</span>
-    <span class="s1">'Irazasyed\LaravelIdenticon\ServiceProvider'</span><span class="p">,</span>
-
-<span class="p">),</span>
-</pre></div>
+<div class="highlight highlight-php"><pre><span class="pl-s2"><span class="pl-s1"><span class="pl-pds">'</span>providers<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s3">array</span>(</span>
+<span class="pl-s2"></span>
+<span class="pl-s2">    <span class="pl-s1"><span class="pl-pds">'</span>Illuminate\Foundation\Providers\ArtisanServiceProvider<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s2">    <span class="pl-s1"><span class="pl-pds">'</span>Illuminate\Auth\AuthServiceProvider<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s2">    <span class="pl-k">...</span></span>
+<span class="pl-s2">    <span class="pl-s1"><span class="pl-pds">'</span>Irazasyed\LaravelIdenticon\ServiceProvider<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s2"></span>
+<span class="pl-s2">),</span></pre></div>
 
 <p>At the end of <code>app/config/app.php</code> add <code>'Identicon' =&gt; 'Irazasyed\LaravelIdenticon\Facade'</code> to the <code>$aliases</code> array</p>
 
-<div class="highlight highlight-php"><pre><span class="s1">'aliases'</span> <span class="o">=&gt;</span> <span class="k">array</span><span class="p">(</span>
-
-    <span class="s1">'App'</span>        <span class="o">=&gt;</span> <span class="s1">'Illuminate\Support\Facades\App'</span><span class="p">,</span>
-    <span class="s1">'Artisan'</span>    <span class="o">=&gt;</span> <span class="s1">'Illuminate\Support\Facades\Artisan'</span><span class="p">,</span>
-    <span class="o">...</span>
-    <span class="s1">'Identicon'</span>  <span class="o">=&gt;</span> <span class="s1">'Irazasyed\LaravelIdenticon\Facade'</span><span class="p">,</span>
-
-<span class="p">),</span>
-</pre></div>
+<div class="highlight highlight-php"><pre><span class="pl-s2"><span class="pl-s1"><span class="pl-pds">'</span>aliases<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s3">array</span>(</span>
+<span class="pl-s2"></span>
+<span class="pl-s2">    <span class="pl-s1"><span class="pl-pds">'</span>App<span class="pl-pds">'</span></span>        <span class="pl-k">=&gt;</span> <span class="pl-s1"><span class="pl-pds">'</span>Illuminate\Support\Facades\App<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s2">    <span class="pl-s1"><span class="pl-pds">'</span>Artisan<span class="pl-pds">'</span></span>    <span class="pl-k">=&gt;</span> <span class="pl-s1"><span class="pl-pds">'</span>Illuminate\Support\Facades\Artisan<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s2">    <span class="pl-k">...</span></span>
+<span class="pl-s2">    <span class="pl-s1"><span class="pl-pds">'</span>Identicon<span class="pl-pds">'</span></span>  <span class="pl-k">=&gt;</span> <span class="pl-s1"><span class="pl-pds">'</span>Irazasyed\LaravelIdenticon\Facade<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s2"></span>
+<span class="pl-s2">),</span></pre></div>
 
 <h2>
-<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
 <p>This Package adds Laravel Support to <a href="http://identicon-php.org/">Identicon</a> PHP Library. It simply extends the library as well as optimized for usage with Laravel. So all the methods listed <a href="http://identicon-php.org/">here</a> are available and will work seamlessly.</p>
 
 <h3>
-<a name="example-methods" class="anchor" href="#example-methods"><span class="octicon octicon-link"></span></a>Example Methods</h3>
+<a id="example-methods" class="anchor" href="#example-methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example Methods</h3>
 
 <p>Generate and Display an identicon image:</p>
 
-<div class="highlight highlight-php"><pre><span class="nx">Identicon</span><span class="o">::</span><span class="na">displayImage</span><span class="p">(</span><span class="s1">'foo'</span><span class="p">);</span>
-</pre></div>
+<div class="highlight highlight-php"><pre><span class="pl-s2"><span class="pl-s3">Identicon</span><span class="pl-k">::</span>displayImage(<span class="pl-s1"><span class="pl-pds">'</span>foo<span class="pl-pds">'</span></span>);</span></pre></div>
 
 <p>Generate and get the image data</p>
 
-<div class="highlight highlight-php"><pre><span class="nv">$imageData</span> <span class="o">=</span> <span class="nx">Identicon</span><span class="o">::</span><span class="na">getImageData</span><span class="p">(</span><span class="s1">'bar'</span><span class="p">);</span>
-</pre></div>
+<div class="highlight highlight-php"><pre><span class="pl-s2"><span class="pl-vo">$imageData</span> <span class="pl-k">=</span> <span class="pl-s3">Identicon</span><span class="pl-k">::</span>getImageData(<span class="pl-s1"><span class="pl-pds">'</span>bar<span class="pl-pds">'</span></span>);</span></pre></div>
 
 <p>Generate and get the base 64 image uri ready for integrate into an HTML img tag. The below example is using blade templating</p>
 
@@ -111,12 +109,12 @@
 <p>And all the other remaining methods from the main library.</p>
 
 <h2>
-<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
 
 <p>MIT © <a href="http://lk.gd/irazasyed">Syed I.R</a></p>
 
 <h2>
-<a name="additional-information" class="anchor" href="#additional-information"><span class="octicon octicon-link"></span></a>Additional information</h2>
+<a id="additional-information" class="anchor" href="#additional-information" aria-hidden="true"><span class="octicon octicon-link"></span></a>Additional information</h2>
 
 <p>Any issues, please <a href="https://github.com/irazasyed/laravel-identicon/issues">report here</a></p>
       </section>
