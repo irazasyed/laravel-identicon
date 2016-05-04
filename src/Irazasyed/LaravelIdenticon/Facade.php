@@ -1,7 +1,9 @@
-<?php namespace Irazasyed\LaravelIdenticon;
+<?php
 
-class Facade extends \Illuminate\Support\Facades\Facade {
+namespace Irazasyed\LaravelIdenticon;
 
+class Facade extends \Illuminate\Support\Facades\Facade
+{
     /**
      * Get the registered name of the component.
      *
@@ -11,5 +13,4 @@ class Facade extends \Illuminate\Support\Facades\Facade {
     {
         return 'identicon';
     }
-
 }
