@@ -1,7 +1,9 @@
-<?php namespace Irazasyed\LaravelIdenticon;
+<?php
 
-class ServiceProvider extends \Illuminate\Support\ServiceProvider {
+namespace Irazasyed\LaravelIdenticon;
 
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
+{
     /**
      * Indicates if loading of the provider is deferred.
      *
@@ -27,7 +29,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider {
     public function register()
     {
         $this->app['identicon'] = $this->app->share(function ($app) {
-            return new Identicon;
+            return new Identicon();
         });
     }
 
@@ -38,7 +40,6 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider {
      */
     public function provides()
     {
-        return [ 'identicon' ];
+        return ['identicon'];
     }
-
 }
