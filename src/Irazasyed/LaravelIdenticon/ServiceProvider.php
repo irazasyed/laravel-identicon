@@ -28,7 +28,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function register()
     {
-        $this->app['identicon'] = $this->app->share(function ($app) {
+        $this->app->singleton('identicon', function ($app) {
             return new Identicon();
         });
     }
