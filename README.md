@@ -27,6 +27,9 @@ Or add in the `require` key of `composer.json` file manually by add the followin
 And Run the Composer update comand
 
     $ composer update
+    
+## Providers and Aliases
+_This step is optional for Laravel >= 5.5, where these are auto-discovered._
 
 In your `app/config/app.php` add `'Irazasyed\LaravelIdenticon\ServiceProvider'` to the end of the `$providers` array
 
