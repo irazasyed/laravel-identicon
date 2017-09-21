@@ -13,12 +13,22 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "~4.1 || ~5.0",
-        "yzalis/identicon": "~1.1"
+        "yzalis/identicon": "~1.2"
     },
     "autoload": {
         "psr-0": {
             "Irazasyed\\LaravelIdenticon\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Irazasyed\\LaravelIdenticon\\ServiceProvider"
+            ],
+            "aliases": {
+                "Identicon": "Irazasyed\\LaravelIdenticon\\Facade"
+            }
+        }
+    }
 }
