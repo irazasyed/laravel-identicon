@@ -6,6 +6,7 @@ Laravel-Identicon Package
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/3a51a89d-7e80-467d-b857-5b05ccf3bdb5.svg?style=flat-square)](https://insight.sensiolabs.com/projects/3a51a89d-7e80-467d-b857-5b05ccf3bdb5)
 [![Total Downloads](https://img.shields.io/packagist/dt/irazasyed/laravel-identicon.svg?style=flat-square)](https://packagist.org/packages/irazasyed/laravel-identicon)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Firazasyed%2Flaravel-identicon.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Firazasyed%2Flaravel-identicon?ref=badge_shield)
 
 
 > Laravel 4/5 [Identicon][1] Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 4 or 5.
@@ -86,6 +87,9 @@ And all the other remaining methods from the main library.
 
 MIT © [Syed I.R](http://lk.gd/irazasyed)
 
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Firazasyed%2Flaravel-identicon.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Firazasyed%2Flaravel-identicon?ref=badge_large)
 
 ## Additional information
 
