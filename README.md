@@ -85,9 +85,7 @@ And all the other remaining methods from the main library.
 
 ## License
 
-MIT © [Syed I.R](http://lk.gd/irazasyed)
-
-
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Firazasyed%2Flaravel-identicon.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Firazasyed%2Flaravel-identicon?ref=badge_large)
 
