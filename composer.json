@@ -1,8 +1,8 @@
 {
     "name": "irazasyed/laravel-identicon",
-    "description": "Laravel Identicon Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 4/5.",
-    "keywords": ["identicon", "avatar", "image", "laravel", "laravel 4", "laravel 5", "laravel identicon"],
-    "homepage": "http://irazasyed.github.io/laravel-identicon/",
+    "description": "Laravel Identicon Package",
+    "keywords": ["identicon", "avatar", "image", "laravel identicon", "laravel"],
+    "homepage": "https://irazasyed.github.io/laravel-identicon/",
     "license": "MIT",
     "authors": [
         {
@@ -11,16 +11,15 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "~4.1 || ~5.0",
-        "yzalis/identicon": "~1.2"
+        "php": "^7.2",
+        "illuminate/support": "^5.5 || ^6.0",
+        "yzalis/identicon": "^1.2"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Irazasyed\\LaravelIdenticon\\": "src/"
         }
     },
-    "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
