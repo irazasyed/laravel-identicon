@@ -16,7 +16,7 @@ Laravel-Identicon Package
 ### Installation
 
 ```bash
-$ composer require irazasyed/laravel-identicon:~1.1
+$ composer require irazasyed/laravel-identicon
 ```
 
 ## Usage
