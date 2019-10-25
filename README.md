@@ -1,14 +1,14 @@
 Laravel-Identicon Package
 =========================
-[![Package for Laravel](https://img.shields.io/badge/Package%20for%20Laravel-5|6-blue.svg?style=flat-square)](https://github.com/irazasyed/laravel-identicon)
-[![Latest Version](https://img.shields.io/github/release/irazasyed/laravel-identicon.svg?style=flat-square)](https://github.com/irazasyed/laravel-identicon/releases)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/3a51a89d-7e80-467d-b857-5b05ccf3bdb5.svg?style=flat-square)](https://insight.sensiolabs.com/projects/3a51a89d-7e80-467d-b857-5b05ccf3bdb5)
-[![Total Downloads](https://img.shields.io/packagist/dt/irazasyed/laravel-identicon.svg?style=flat-square)](https://packagist.org/packages/irazasyed/laravel-identicon)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Firazasyed%2Flaravel-identicon.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Firazasyed%2Flaravel-identicon?ref=badge_shield)
+[![Join PHP Chat][ico-phpchat]][link-phpchat]
+[![Chat on Telegram][ico-telegram]][link-telegram]
+[![Laravel Package][ico-laravel]][link-repo]
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+[![SensioLabsInsight][ico-sensiolabs]][link-sensiolabs]
+[![Total Downloads][ico-downloads]][link-downloads]
 
-
-> Laravel 5|6 [Identicon][1] Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 5|6.
+> Laravel 5|6 [Identicon][link-identicon] Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 5|6.
 
 ## Quick start
 
@@ -21,7 +21,7 @@ $ composer require irazasyed/laravel-identicon
 
 ## Usage
 
-This Package adds Laravel Support to [Identicon][1] PHP Library. It simply extends the library as well as optimized for usage with Laravel. So all the methods listed [here][1] are available and will work seamlessly.
+This Package adds Laravel Support to [Identicon][link-identicon] PHP Library. It simply extends the library as well as optimized for usage with Laravel. So all the methods listed [here][link-identicon] are available and will work seamlessly.
 
 ### Example Methods
 
@@ -47,16 +47,39 @@ Generate and get the base 64 image uri ready for integrate into an HTML img tag.
 
 And all the other remaining methods from the main library.
 
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
+
+## Security
+
+If you discover any security related issues, please email `syed at lukonet.com` instead of using the issue tracker.
+
+## Credits
+
+- [Syed][link-author]
+- [All Contributors][link-contributors]
+
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE) for more information.
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Firazasyed%2Flaravel-identicon.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Firazasyed%2Flaravel-identicon?ref=badge_large)
 
-## Additional information
+[ico-phpchat]: https://img.shields.io/badge/Slack-PHP%20Chat-5c6aaa.svg?style=flat-square&logo=slack&labelColor=4A154B
+[ico-telegram]: https://img.shields.io/badge/@PHPChatCo-2CA5E0.svg?style=flat-square&logo=telegram&label=Telegram
+[ico-laravel]: https://img.shields.io/badge/Laravel-5|6-FF2D20.svg?style=flat-square&logo=laravel&labelColor=black&logoColor=white
+[ico-version]: https://img.shields.io/packagist/v/irazasyed/laravel-identicon.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/irazasyed/laravel-identicon.svg?style=flat-square
+[ico-sensiolabs]: https://img.shields.io/sensiolabs/i/3a51a89d-7e80-467d-b857-5b05ccf3bdb5.svg?style=flat-square
 
-
-Any issues, please [report here](https://github.com/irazasyed/laravel-identicon/issues)
-
-
-[1]: http://identicon-php.org/
+[link-phpchat]: https://phpchat.co/?ref=laravel-identicon
+[link-telegram]: https://t.me/PHPChatCo
+[link-repo]: https://github.com/irazasyed/laravel-identicon
+[link-packagist]: https://packagist.org/packages/irazasyed/laravel-identicon
+[link-downloads]: https://packagist.org/packages/irazasyed/laravel-identicon
+[link-sensiolabs]: https://insight.sensiolabs.com/projects/3a51a89d-7e80-467d-b857-5b05ccf3bdb5
+[link-author]: https://github.com/irazasyed
+[link-contributors]: ../../contributors
+[link-identicon]: http://identicon-php.org/
