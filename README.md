@@ -8,7 +8,7 @@ Laravel-Identicon Package
 [![SensioLabsInsight][ico-sensiolabs]][link-sensiolabs]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-> Laravel 5|6 [Identicon][link-identicon] Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel 5|6.
+> Laravel [Identicon][link-identicon] Package - Extends Identicon Library and Adds Support for Seamless Usage with Laravel.
 
 ## Quick start
 
