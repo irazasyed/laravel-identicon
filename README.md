@@ -82,4 +82,4 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-sensiolabs]: https://insight.sensiolabs.com/projects/3a51a89d-7e80-467d-b857-5b05ccf3bdb5
 [link-author]: https://github.com/irazasyed
 [link-contributors]: ../../contributors
-[link-identicon]: http://identicon-php.org/
+[link-identicon]: https://github.com/yzalis/Identicon
