@@ -12,7 +12,7 @@
     ],
     "require": {
         "php": "^7.2 || ^8.0",
-        "illuminate/support": "^11.16.0",
+        "illuminate/support": "^12.0.1",
         "yzalis/identicon": "^2.0"
     },
     "autoload": {
