@@ -13,7 +13,7 @@
     "require": {
         "php": "^7.2 || ^8.0",
         "illuminate/support": "^12.1.0",
-        "yzalis/identicon": "^2.0"
+        "yzalis/identicon": "^3.0"
     },
     "autoload": {
         "psr-4": {
